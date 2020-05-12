@@ -1,0 +1,18 @@
+.btnBody {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: linear-gradient(90deg, hotpink, darkblue, hotpink);
+  background-size: 800%;
+}
+
+.btnBody:hover {
+  animation: btnAnim 3s linear infinite both;
+}
+
+@keyframes btnAnim {
+  100% {
+    background-position: -100% 0;
+  }
+}
